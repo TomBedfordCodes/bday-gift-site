@@ -1,8 +1,10 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: 'Crafty Girls', cursive;
+    /* font-family: 'Happy Monkey', cursive; */
     /* background: linear-gradient(#a2d2ff, #EFB0C9); */
-    background: linear-gradient(rgb(32, 32, 83), darkred);
+    /* background: linear-gradient(rgb(32, 32, 83), darkred); */
+    background: linear-gradient(purple, hotpink);
     color: #ffffff;
 }
 
@@ -18,7 +20,7 @@ h1, h2, h3, h4, p {
 }
 
 #bday-age {
-    background: #EFB0C9;
+    /* background: #EFB0C9; */
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -26,7 +28,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    /* background: #EFB0C9; */
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -67,7 +69,7 @@ h1, h2, h3, h4, p {
     background-image: url("images/happy.gif");
 }
 
-#gift-img-hot:hover {
+/* #gift-img-hot:hover {
     background-image: url("images/hot.gif");
 }
 
@@ -81,26 +83,16 @@ h1, h2, h3, h4, p {
 
 #gift-img-cheers:hover {
     background-image: url("images/cheers.gif");
-}
+} */
 
 #footer {
     font-style: italic;
     width: 400px;
     margin: 40px auto 20px;
+    color: purple;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
